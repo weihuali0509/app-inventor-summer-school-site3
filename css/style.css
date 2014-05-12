@@ -131,7 +131,7 @@ textarea {
 	position:relative;
 }
 #logo a {
-	background:url(images/logo.png) no-repeat 0 0;
+	background:url(images/logo_CN.png) no-repeat 0 0;
 	width:333px;
 	height:152px;
 	position:absolute;
@@ -157,7 +157,8 @@ textarea {
 	display: block;
 	/*width: 100px;
 	height: 100px;*/
-	background: url('images/home.png')  no-repeat 0 0;
+    background-position: 0 0;
+	background: url('images/banners/home_DS.png')  no-repeat 0 0;
 	text-indent: -99999px;
 
 	border-top:0px solid #dbdbdb;
@@ -176,12 +177,11 @@ textarea {
 
 .home:hover  {
 	background-position: 0 0;
-	background: url('images/homehover.png')  no-repeat 0 0;
+	background: url('images/banners/home.png')  no-repeat 0 0;
 }
 
 .home-current {
-
-	background: url('images/homehover.png')  no-repeat 0 0;
+	background: url('images/banners/home.png')  no-repeat 0 0;
 } 
 .author {
 	display: block;
@@ -208,9 +208,10 @@ textarea {
 
 	background: url('images/authorhover.png')  no-repeat 0 0;
 } 
+
 .contact {
 	display: block;
-	background: url('images/organizers.png')  no-repeat 0 0;
+	background: url('images/banners/organizers_DS.png')  no-repeat 0 0;
 	text-indent: -99999px;
 	width:109px;
 	height:43px;
@@ -226,16 +227,17 @@ textarea {
 }
 .contact:hover {
 	background-position: 0 0;
-	background: url('images/organizershover.png')  no-repeat 0 0;
+	background: url('images/banners/organizers.png')  no-repeat 0 0;
 }
 
 .contact-current {
 
-	background: url('images/organizershover.png')  no-repeat 0 0;
+	background: url('images/banners/organizers.png')  no-repeat 0 0;
 } 
-.attending {
+
+.agenda {
 	display: block;
-	background: url('images/attending.png')  no-repeat 0 0;
+	background: url('images/banners/agenda_DS.png')  no-repeat 0 0;
 	text-indent: -99999px;
 	width:109px;
 	height:43px;
@@ -249,19 +251,19 @@ textarea {
 	padding:0px;
 
 }
-.attending:hover {
+.agenda:hover {
 	background-position: 0 0;
-	background: url('images/attendinghover.png')  no-repeat 0 0;
+	background: url('images/banners/agenda.png')  no-repeat 0 0;
 }
 
-.attending-current {
+.agenda-current {
 
-	background: url('images/attendinghover.png')  no-repeat 0 0;
+	background: url('images/banners/agenda.png')  no-repeat 0 0;
 } 
 
-.program {
+.school {
 	display: block;
-	background: url('images/program.png')  no-repeat 0 0;
+	background: url('images/banners/schools_DS.png')  no-repeat 0 0;
 	text-indent: -99999px;
 	width:109px;
 	height:43px;
@@ -275,14 +277,14 @@ textarea {
 	padding:0px;
 
 }
-.program:hover {
+.school:hover {
 	background-position: 0 0;
-	background: url('images/programhover.png')  no-repeat 0 0;
+	background: url('images/banners/schools.png')  no-repeat 0 0;
 }
 
-.program-current {
+.school-current {
 
-	background: url('images/programhover.png')  no-repeat 0 0;
+	background: url('images/banners/schools.png')  no-repeat 0 0;
 } 
 
 .socials {
@@ -310,6 +312,10 @@ textarea {
 	color:#b9b9b9;
 	height:16px;
 	padding:0 0 0 20px;
+}
+
+.socials ul li a.wb {
+	background:url(images/soc-wb.png) no-repeat 0 0;
 }
 .socials ul li a.go {
 	background:url(images/soc-g+.gif) no-repeat 0 0;
