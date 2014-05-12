@@ -15,7 +15,6 @@ body {
 	list-style: none;
 	padding:0;
 	margin:0;
-
 }
 
 #sections li {
@@ -23,24 +22,20 @@ body {
 	border: solid;
 	border-width: 1px 1px 0 1px;
 	margin: 0 0.5em 0 0;
-
 }
 
 #sections li a {
 	padding: 0 1em;
 }
 
-
 .section a {
 	font-color:black;
-
 }
 
 
 .section a:hover {
 	background-color:none;
 	text-decoration:none;
-
 }
 
 #sections #selected {
@@ -56,7 +51,7 @@ a {
 
 a:hover {
 	/*text-decoration:underline;*/
-        background-color:#FFD3DA;
+     background-color:#FFD3DA;
 }
 
 
@@ -171,23 +166,20 @@ textarea {
 	height:43px;
 	border-right:0px solid #dbdbdb;
 	padding:0px;
-
-
 }
-
 .home:hover  {
 	background-position: 0 0;
 	background: url('images/banners/home.png')  no-repeat 0 0;
 }
-
 .home-current {
 	background: url('images/banners/home.png')  no-repeat 0 0;
 } 
+
 .author {
 	display: block;
 	background: url('images/author.png')  no-repeat 0 0;
 	text-indent: -99999px;
-	width:109px;
+	width:102px;
 	height:43px;
 	border-top:0px solid #dbdbdb;
 	border-bottom:0px solid #dbdbdb;
@@ -203,7 +195,6 @@ textarea {
 	background-position: 0 0;
 	background: url('images/authorhover.png')  no-repeat 0 0;
 }
-
 .author-current {
 
 	background: url('images/authorhover.png')  no-repeat 0 0;
@@ -213,7 +204,7 @@ textarea {
 	display: block;
 	background: url('images/banners/organizers_DS.png')  no-repeat 0 0;
 	text-indent: -99999px;
-	width:109px;
+	width:102px;
 	height:43px;
 	border-top:0px solid #dbdbdb;
 	border-bottom:0px solid #dbdbdb;
@@ -239,7 +230,7 @@ textarea {
 	display: block;
 	background: url('images/banners/agenda_DS.png')  no-repeat 0 0;
 	text-indent: -99999px;
-	width:109px;
+	width:100px;
 	height:43px;
 	border-top:0px solid #dbdbdb;
 	border-bottom:0px solid #dbdbdb;
@@ -265,7 +256,7 @@ textarea {
 	display: block;
 	background: url('images/banners/materials_DS.png')  no-repeat 0 0;
 	text-indent: -99999px;
-	width:109px;
+	width:100px;
 	height:43px;
 	border-top:0px solid #dbdbdb;
 	border-bottom:0px solid #dbdbdb;
@@ -291,7 +282,7 @@ textarea {
 	display: block;
 	background: url('images/banners/schools_DS.png')  no-repeat 0 0;
 	text-indent: -99999px;
-	width:109px;
+	width:100px;
 	height:43px;
 	border-top:0px solid #dbdbdb;
 	border-bottom:0px solid #dbdbdb;
@@ -309,7 +300,6 @@ textarea {
 }
 
 .school-current {
-
 	background: url('images/banners/schools.png')  no-repeat 0 0;
 } 
 
@@ -357,7 +347,6 @@ textarea {
 	border-top:0px solid #dbdbdb;
 	border-bottom:0px solid #dbdbdb;
 	margin: 0; 
-
 }
 
 #menu {
