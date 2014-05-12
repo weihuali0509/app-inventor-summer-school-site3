@@ -261,6 +261,32 @@ textarea {
 	background: url('images/banners/agenda.png')  no-repeat 0 0;
 } 
 
+.material {
+	display: block;
+	background: url('images/banners/materials_DS.png')  no-repeat 0 0;
+	text-indent: -99999px;
+	width:109px;
+	height:43px;
+	border-top:0px solid #dbdbdb;
+	border-bottom:0px solid #dbdbdb;
+	margin: 0; 
+	float:right;
+	list-style:none;
+	float:right;
+	border-right:0px solid #dbdbdb;
+	padding:0px;
+
+}
+.material:hover {
+	background-position: 0 0;
+	background: url('images/banners/materials.png')  no-repeat 0 0;
+}
+
+.material-current {
+
+	background: url('images/banners/materials.png')  no-repeat 0 0;
+} 
+
 .school {
 	display: block;
 	background: url('images/banners/schools_DS.png')  no-repeat 0 0;
