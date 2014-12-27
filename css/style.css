@@ -330,6 +330,9 @@ textarea {
 	padding:0 0 0 20px;
 }
 
+.socials ul li a.wc {
+	background:url(images/soc-wc.ico) no-repeat 0 0;
+}
 .socials ul li a.wb {
 	background:url(images/soc-wb.png) no-repeat 0 0;
 }
