@@ -6,6 +6,15 @@
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 <link rel="stylesheet" href="css/jquery.jcarousel.css" type="text/css" media="all" />
 <!--[if IE 6]><link rel="stylesheet" href="css/ie6.css" type="text/css" media="all" /><![endif]-->
+    <script>
+        function showAltVideo(elementId) {
+            if (document.getElementById(elementId).style.display != "") {
+               document.getElementById(elementId).style.display = "";
+            } else {
+               document.getElementById(elementId).style.display = "none";
+            }
+        }
+    </script>
 </head>
 <body>
 <div class="shell">
@@ -54,107 +63,118 @@
       <div id="2014summerschool">
           <div id="2014summerschoolvideo">
               <h2>2014 MIT-Google App Inventor Summer School / 暑假培训班</2>
-              <h4><i>* App Inventor Summer School Overview / 暑假培训一览</i></h4> 
+              <h3><i>* App Inventor Summer School Overview / 暑假培训一览</i></h3> 
               <center><iframe width="924" height="520" src="http://www.youtube.com/embed/sYfB3w88cv8" frameborder="0" allowfullscreen></iframe></center>
-              <h5><a href="http://techtv.mit.edu/videos/30613-2014-mit-google-app-inventor-summer-school">Click here if you can't view  / 请点击这里如果不能查看</a></h5>
+              <h5><a onclick="showAltVideo('v005')" class="more">Click here if you can't view  / 请点击这里如果不能查看</a></h5>
+              <br></br>
+              <center><iframe id="v005" style="display: none;" width="924" height="520" src="http://player.youku.com/embed/XODU5NDQ0MDI4" frameborder="0" allowfullscreen></iframe></center>
               <br> </br>
               <br> </br>
           </div>
         
           <div>
-              <h4><i>* MIT/Google China Summer Workshops reach teachers from 198 schools / 暑假培训了来自198所学校的老师和学生 </i></h4>
-              <h5><a href = "http://appinventor.mit.edu/explore/blogs/hal/2014/08.html">"The six-week long MIT-Google App Inventor Summer School program was successfully completed on August 8, 2014. We reached 275+ teachers, 76+ students from 198+ schools. ..."</a></h5>
+              <h3><i>* MIT/Google China Summer Workshops reach teachers from 198 schools / 暑假培训了来自198所学校的老师和学生 </i></h3>
+              <h4><a href = "http://appinventor.mit.edu/explore/blogs/hal/2014/08.html">"The six-week long MIT-Google App Inventor Summer School program was successfully completed on August 8, 2014. We reached 275+ teachers, 76+ students from 198+ schools. ..."</a></h4>
               <br></br>              
           </div>
       
           <div>
-              <h4><i>* App Inventor teacher workshops in South China / Hal Abelson 教授在华南地区培训班的感想 </i></h4>
-              <h5><a href = "http://appinventor.mit.edu/explore/blogs/hal/2014/07/app.html">"I’m writing from an App Inventor workshop at the Shenzhen Institute of Information Technology,Shenzhen Institute of Information Technology (SZIIT), one of China’s top technical schools, where we’re running a three-day App Inventor workshop for 40 middle school and high school teachers.  “We” are MIT Masters students Weihua Li and Brian Sun, rising sophomores Helen Nie and Nicole Lu, and me.  Here with us is Kathy Deng from Google China Education in Beijing. ..."</a></h5>
+              <h3><i>* App Inventor teacher workshops in South China / Hal Abelson 教授在华南地区培训班的感想 </i></h3>
+              <h4><a href = "http://appinventor.mit.edu/explore/blogs/hal/2014/07/app.html">"I’m writing from an App Inventor workshop at the Shenzhen Institute of Information Technology,Shenzhen Institute of Information Technology (SZIIT), one of China’s top technical schools, where we’re running a three-day App Inventor workshop for 40 middle school and high school teachers.  “We” are MIT Masters students Weihua Li and Brian Sun, rising sophomores Helen Nie and Nicole Lu, and me.  Here with us is Kathy Deng from Google China Education in Beijing. ..."</a></h4>
               <br></br>              
           </div>
     
           <div>
-              <h4><i>* Participant's positive summary on the App Inventor Tianjin Workshop / 麻省理工学院——谷歌App Inventor培训总结 </i></h4>
-              <h5><a href = "http://ztzzx.bchedu.net/article-16-863.aspx">“2014年7月2日到7月4日，我在天津大学参加了麻省理工学院——谷歌App Inventor的培训，怀着很激动的心情来到了早早的来到了天津大学。
-早上在会议楼的第七会议室举行了培训班开幕式，有很多的各部门领导参加了会议，例如：联合国教科文组织驻华大使，软件学院的院长，还有来自麻省理工学院的讲师团队：李伟华 (MIT本科硕士在读)、孙伟励 (MIT硕士在读）、卢妮可 (MIT本科一年级)、 聂正清 (MIT本科一年级)，也正是这几位讲师在将来的几天中陪伴着我们度过了学习过程。 。。。”</a></h5>
+              <h3><i>* Participant's positive summary on the App Inventor Tianjin Workshop / 天津学员培训总结 </i></h3>
+              <h4><a href = "http://ztzzx.bchedu.net/article-16-863.aspx">“2014年7月2日到7月4日，我在天津大学参加了麻省理工学院——谷歌App Inventor的培训，怀着很激动的心情来到了早早的来到了天津大学。
+早上在会议楼的第七会议室举行了培训班开幕式，有很多的各部门领导参加了会议，例如：联合国教科文组织驻华大使，软件学院的院长，还有来自麻省理工学院的讲师团队：李伟华 (MIT本科硕士在读)、孙伟励 (MIT硕士在读）、卢妮可 (MIT本科一年级)、 聂正清 (MIT本科一年级)，也正是这几位讲师在将来的几天中陪伴着我们度过了学习过程。 。。。”</a></h4>
               <br></br>              
           </div>
   
           <div>
-              <h4><i>* Participant's positive summary on the App Inventor Guangzhou Workshop / 参加基于App Inventor的安卓手机软件应用开发培训感想 </i></h4>
-              <h5><a href = "http://blog.sina.com.cn/s/blog_74c83ab30102uxvf.html">“27月21日—23日，本人有幸参加了由华南理工大学与谷歌信息技术有限公司联合举办的基于App Inventor的安卓卓手机软件应用开发培训班，收获颇丰。
-在参加培训之前，我以为是要培训eclipse安卓手机软件开发，在带孩子的忙碌中零零碎碎抽了七八个钟的时间，在出差前的最后一刻才将编程环境配置成功，由于对java语言和eclipse软件不熟悉，所以我对培训并不抱太大期望，觉得不可能学到很多东西。 21号早上参加培训班开幕式，看到宣传资料，才知道培训的内容不是我想当然以为的elipse java编程，而是类似Scratch的积木式编程工具。。。。”</a></h5>
+              <h3><i>* Participant's positive summary on the App Inventor Guangzhou Workshop / 广州学员参加基于App Inventor的安卓手机软件应用开发培训感想 </i></h3>
+              <h4><a href = "http://blog.sina.com.cn/s/blog_74c83ab30102uxvf.html">“27月21日—23日，本人有幸参加了由华南理工大学与谷歌信息技术有限公司联合举办的基于App Inventor的安卓卓手机软件应用开发培训班，收获颇丰。
+在参加培训之前，我以为是要培训eclipse安卓手机软件开发，在带孩子的忙碌中零零碎碎抽了七八个钟的时间，在出差前的最后一刻才将编程环境配置成功，由于对java语言和eclipse软件不熟悉，所以我对培训并不抱太大期望，觉得不可能学到很多东西。 21号早上参加培训班开幕式，看到宣传资料，才知道培训的内容不是我想当然以为的elipse java编程，而是类似Scratch的积木式编程工具。。。。”</a></h4>
               <br></br>              
           </div>
     
           <div>
-              <h4><i>* App Inventor Summer School in the news / 麻省理工“APP Inventor之父”中国教中小学老师 </i></h4>
-              <h5><a href = "http://informationtimes.dayoo.com/html/2014-07/22/content_2697029.htm">“在这个信息爆炸与人人热玩手机的时代，想要让课堂更加创意爆棚与生动活泼，老师们学会制作手机软件是一道妙招。昨日，由广州市教育局、华南理工大学和谷歌信息技术(中国)有限公司联合举办的APP Inventor教学研讨班在华南理工大学逸夫科学馆开幕，来自麻省理工大学、有“APP Inventor之父”之称的Hal Abelson教授及其团队手把手教来自全市50多所中小学的教师制作手机软件，以此辅助其课堂教学。 。。。。”</a></h5>
+              <h3><i>* App Inventor Summer School in the news / 新闻: 麻省理工“APP Inventor之父”中国教中小学老师 </i></h3>
+              <h4><a href = "http://informationtimes.dayoo.com/html/2014-07/22/content_2697029.htm">“在这个信息爆炸与人人热玩手机的时代，想要让课堂更加创意爆棚与生动活泼，老师们学会制作手机软件是一道妙招。昨日，由广州市教育局、华南理工大学和谷歌信息技术(中国)有限公司联合举办的APP Inventor教学研讨班在华南理工大学逸夫科学馆开幕，来自麻省理工大学、有“APP Inventor之父”之称的Hal Abelson教授及其团队手把手教来自全市50多所中小学的教师制作手机软件，以此辅助其课堂教学。 。。。。”</a></h4>
               <br></br>              
           </div>
 
           <div>
-              <h4><i>* App Inventor Summer School blog post by Google China University Realtion/Education / 让App Inventor开启你的手机应用程序编程之路 </i></h4>
-              <h5><a href = "http://blog.sina.com.cn/s/blog_9c079b040102uxvh.html">“2014年7月21日，美国麻省理工学院App Inventor之父 Hal Abelson教授来到华南理工大学参加了华南理工大学App Inventor中学教师培训班开班仪式。本次培训班是2014年MIT-Google App Inventor Summer School的一部分。Abelson教授在开班仪式上说到，与20年前的计算机相比，人们现在随身携带的智能手机其实就是一台超级计算机。现在人们与移动设备互动越来越频繁，我们完全可以把手机使用者变为创造者，让小小的移动设备成为创新的载体。 。。。。”</a></h5>
+              <h3><i>* App Inventor Summer School blog post by Google China University Realtion/Education / 让App Inventor开启你的手机应用程序编程之路 </i></h3>
+              <h4><a href = "http://blog.sina.com.cn/s/blog_9c079b040102uxvh.html">“2014年7月21日，美国麻省理工学院App Inventor之父 Hal Abelson教授来到华南理工大学参加了华南理工大学App Inventor中学教师培训班开班仪式。本次培训班是2014年MIT-Google App Inventor Summer School的一部分。Abelson教授在开班仪式上说到，与20年前的计算机相比，人们现在随身携带的智能手机其实就是一台超级计算机。现在人们与移动设备互动越来越频繁，我们完全可以把手机使用者变为创造者，让小小的移动设备成为创新的载体。 。。。。”</a></h4>
               <br></br>              
           </div>
     
           <div>
-              <h4><i>* Guangzhou App Inventor Summer Camp Video  / 广州 "科技之星" 视频</i></h4> 
+              <h3><i>* Guangzhou App Inventor Summer Camp Video  / 广州 "科技之星" 视频</i></h3> 
               <center><iframe width="924" height="520" src="http://www.youtube.com/embed/bGeCDQGKMsI" frameborder="0" allowfullscreen></iframe></iframe></center>
-              <h5><a href="http://techtv.mit.edu/videos/30829-2014-guangzhou-app-inventor-summer-camp-video">Click here if you can't view  / 请点击这里如果不能查看</a></h5>
+              <h5><a onclick="showAltVideo('v004')" class="more">Click here if you can't view  / 请点击这里如果不能查看</a></h5>
+              <br></br>
+              <center><iframe id="v004" style="display: none;" width="924" height="520" src="http://player.youku.com/embed/XODU5OTkxNDAw" frameborder="0" allowfullscreen></iframe></center>
               <br> </br>
               <br> </br>
           </div>
 
           <div>
-              <h4><i>* A Touching App Inventor Story   / 甘肃老师分享他们的经验</i></h4> 
+              <h3><i>* A Touching App Inventor Story   / 甘肃老师分享他们的经验</i></h3> 
               <center><iframe width="924" height="520" src="http://www.youtube.com/embed/sPXCbjCaM2g" frameborder="0" allowfullscreen></iframe></iframe></center>
-              <h5><a href="http://techtv.mit.edu/videos/30830-a-touching-app-inventor-story">Click here if you can't view  / 请点击这里如果不能查看</a></h5>
+              <h5><a onclick="showAltVideo('v003')" class="more">Click here if you can't view  / 请点击这里如果不能查看</a></h5>
+              <br></br>
+              <center><iframe id="v003" style="display: none;" width="924" height="520" src="http://player.youku.com/embed/XODYwMDE2Njg0" frameborder="0" allowfullscreen></iframe></center>
+              <br></br>
               <br> </br>
               <br> </br>
           </div>
         
           <div>
-              <h4><i>* App Inventor Summer School Greeting / App Inventor之父暑假培训班开营致辞</i></h4> 
+              <h3><i>* App Inventor Summer School Greeting / App Inventor之父暑假培训班开营致辞</i></h3> 
               <center><iframe width="924" height="520" src="http://www.youtube.com/embed/lTlxTTbPVOU?list=UURGAwNQBvdScRrK5G0660qw" frameborder="0" allowfullscreen></iframe></center>
-              <h5><a href="http://v.youku.com/v_show/id_XNzU3MTY5MTUy.html">Click here if you can't view  / 请点击这里如果不能查看</a></h5>
+              <h5><a onclick="showAltVideo('v002')" class="more">Click here if you can't view  / 请点击这里如果不能查看</a></h5>
+              <br></br>
+              <center><iframe id="v002" style="display: none;" width="924" height="520" src="http://player.youku.com/embed/XNzU3MTY5MTUy" frameborder="0" allowfullscreen></iframe></center>
               <br> </br>
               <br> </br>
           </div>
 
           <div>
-              <h4><i>* Summer School Schedule / 暑假培训班日程</i></h4> 
+              <h3><i>* Summer School Schedule / 暑假培训班日程</i></h3> 
           </div>
 
           <div>
-              <h5>3-Day Teacher Workshop Schedule / 三天老师培训日程</h5>
+              <h4>3-Day Teacher Workshop Schedule / 三天老师培训日程</h4>
               <embed src="pdf/3DaysWorkshopAgenda_CN.pdf" height="300" and width="928">
               <br></br>
           </div>
 
           <div>
-              <h5>1-Day Teacher Workshop Schedule / 一天老师培训日程</h5>
+              <h4>1-Day Teacher Workshop Schedule / 一天老师培训日程</h4>
               <embed src="pdf/1DayTeacherWorkshopAgenda_CN.pdf" height="300" and width="928">
               <br></br>
           </div>
 
           <div>
-              <h5>1-Day Student Workshop Schedule / 一天学生培训日程</h5>
+              <h4>1-Day Student Workshop Schedule / 一天学生培训日程</h4>
               <embed src="pdf/1DayStudentWorkshopAgenda_CN.pdf" height="300" and width="928">
               <br></br>
               <br></br>
           </div>
 
           <div>
-              <h4><i>* Summer School Sites / 暑假培训班地点</i></h4> 
+              <h3><i>* Summer School Sites / 暑假培训班地点</i></h3> 
               <iframe src="https://mapsengine.google.com/map/embed?mid=zh-D1n_VfTcY.kjeFid7UKi4o" width="935" height="480"></iframe>
-              <h5><a href="css/images/2014summerschoolmap.png">Click here if you can't view  / 请点击这里如果不能查看</a></h5>
+              <h5><a onclick="showAltVideo('v011')" class="more">Click here if you can't view  / 请点击这里如果不能查看</a></h5>
+              <br></br>
+              <center><img id="v011" style="display : none;" width="945" height="480" src="css/images/2014summerschoolmap.png"></img></center>
               <br></br>
           </div>
 
           <div>
-              <h4><i>* Teaching team / 讲师团</i></h4>
+              <h3><i>* Teaching team / 讲师团</i></h3>
               <table align="center">
                     <tr>
                         <td><img width="200" height="200"  src="css/images/people/wei.png"/></td>

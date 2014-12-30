@@ -6,6 +6,15 @@
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 <link rel="stylesheet" href="css/jquery.jcarousel.css" type="text/css" media="all" />
 <!--[if IE 6]><link rel="stylesheet" href="css/ie6.css" type="text/css" media="all" /><![endif]-->
+<script>
+    function showAltVideo(elementId) {
+        if (document.getElementById(elementId).style.display != "") {
+           document.getElementById(elementId).style.display = "";
+        } else {
+           document.getElementById(elementId).style.display = "none";
+        }
+    }
+</script>
 </head>
 <body>
 <div class="shell">
@@ -58,32 +67,36 @@
       <div id="2014contest">
           
           <div>
-              <h4><i>* National App Inventor Contest Overview /  应用开发全国中学生挑战赛一览</i></h4> 
+              <h3><i>* National App Inventor Contest Overview /  应用开发全国中学生挑战赛一览</i></h3> 
               <center><iframe width="924" height="520" src="http://www.youtube.com/embed/nyyxluZUKG8" frameborder="0" allowfullscreen></iframe></center>
-              <h5><a href="">Click here if you can't view / 请点击这里如果不能查看</a></h5>
+              <h5><a onclick="showAltVideo('v007')" class="more">Click here if you can't view  / 请点击这里如果不能查看</a></h5>
+              <br></br>
+              <center><iframe id="v007" style="display: none;" width="924" height="520" src="http://player.youku.com/embed/XODYwMDE2NTQw" frameborder="0" allowfullscreen></iframe></center>
               <br></br>
               <br></br>          
           </div>
     
           <div>
-              <h4><i>* An Inspiring App Inventor Story from the Contest / 张妈妈分享她女儿的小故事</i></h4> 
+              <h3><i>* An Inspiring App Inventor Story from the Contest / 张妈妈分享她女儿的小故事</i></h3> 
               <center><iframe width="924" height="520" src="http://www.youtube.com/embed/gvjwx43Ttxw" frameborder="0" allowfullscreen></iframe></center>
-              <h5><a href="http://techtv.mit.edu/videos/30828-an-inspiring-app-inventor-story-from-the-2014-app-inventor-contest">Click here if you can't view / 请点击这里如果不能查看</a></h5>
+              <h5><a onclick="showAltVideo('v006')" class="more">Click here if you can't view  / 请点击这里如果不能查看</a></h5>
+              <br></br>
+              <center><iframe id="v006" style="display: none;" width="924" height="520" src="http://player.youku.com/embed/XODU5OTg4NDY4" frameborder="0" allowfullscreen></iframe></center>
               <br></br>
               <br></br>          
           </div>
 
           <div>
-              <h4><i>* 2014 China National App Inventor Contest holds final round / 2014年 App Inventor 应用开发全国中学生挑战赛圆满落幕 </i></h4>
-              <h5><a href = "http://blog.sina.com.cn/s/blog_9c079b040102v9i8.html">“11月22日，2014年 App Inventor 应用开发全国中学生挑战赛总决赛现场评比暨颁奖仪式在Google上海办公室顺利举办。本届大赛共计收到140多所学校的中学生提交的450多份参赛作品。最终，来自中山大学附属中学的蔡旭恒同学凭借参赛作品“WeKeepFit”获得初中组一等奖；来自杭州第十四中学康桥校区的包天佑的“到此一游”获得高中组一等奖。...”</a></h5>
+              <h3><i>* 2014 China National App Inventor Contest holds final round / 应用开发全国中学生挑战赛圆满落幕 </i></h3>
+              <h4><a href = "http://blog.sina.com.cn/s/blog_9c079b040102v9i8.html">“11月22日，2014年 App Inventor 应用开发全国中学生挑战赛总决赛现场评比暨颁奖仪式在Google上海办公室顺利举办。本届大赛共计收到140多所学校的中学生提交的450多份参赛作品。最终，来自中山大学附属中学的蔡旭恒同学凭借参赛作品“WeKeepFit”获得初中组一等奖；来自杭州第十四中学康桥校区的包天佑的“到此一游”获得高中组一等奖。...”</a></h4>
 
-              <h5><a href = "http://appinventor.mit.edu/explore/blogs/hal/2014/11/china.html">"We are pleased to announce that the final onsite competition and awarding ceremony of the 2014 App Inventor contest for high/middle school students were successfully held in November 22 in Shanghai office. ..."</a></h5>
+              <h4><a href = "http://appinventor.mit.edu/explore/blogs/hal/2014/11/china.html">"We are pleased to announce that the final onsite competition and awarding ceremony of the 2014 App Inventor contest for high/middle school students were successfully held in November 22 in Shanghai office. ..."</a></h4>
               <br></br>              
           </div>
         
           <div>
-              <h4><i href="http://www.google.cn/university/appinventorcontest/">* Join the App Inventor Constest in China / 参加应用开发全国中学生挑战赛</i></h4>
-              <a ><img href="http://www.google.cn/university/appinventorcontest/" src="css/images/events/hero-image-app-inventor.jpg" width="928" height="300"/></a> 
+              <h3><i href="http://www.google.cn/university/appinventorcontest/">* Join the App Inventor Constest in China / 参加应用开发全国中学生挑战赛</i></h3>
+              <a><img href="http://www.google.cn/university/appinventorcontest/" src="css/images/events/hero-image-app-inventor.jpg" width="928" height="300"/></a> 
               <br></br>
               <br></br>             
           </div>

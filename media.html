@@ -1,11 +1,20 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>App Inventor China</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-<link rel="stylesheet" href="css/jquery.jcarousel.css" type="text/css" media="all" />
-<!--[if IE 6]><link rel="stylesheet" href="css/ie6.css" type="text/css" media="all" /><![endif]-->
+    <title>App Inventor China</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/jquery.jcarousel.css" type="text/css" media="all" />
+    <!--[if IE 6]><link rel="stylesheet" href="css/ie6.css" type="text/css" media="all" /><![endif]-->
+    <script>
+        function showAltVideo(elementId) {
+            if (document.getElementById(elementId).style.display != "") {
+               document.getElementById(elementId).style.display = "";
+            } else {
+               document.getElementById(elementId).style.display = "none";
+            }
+        }
+    </script>
 </head>
 <body>
 <div class="shell">
@@ -56,23 +65,29 @@
           <div>
               <h4><i>* National App Inventor Contest Overview /  应用开发全国中学生挑战赛一览</i></h4> 
               <center><iframe width="924" height="520" src="http://www.youtube.com/embed/nyyxluZUKG8" frameborder="0" allowfullscreen></iframe></center>
-              <h5><a href="">Click here if you can't view / 请点击这里如果不能查看</a></h5>
+              <h5><a onclick="showAltVideo('v007')" class="more">Click here if you can't view  / 请点击这里如果不能查看</a></h5>
               <br></br>
-              <br></br>          
+              <center><iframe id="v007" style="display: none;" width="924" height="520" src="http://player.youku.com/embed/XODYwMDE2NTQw" frameborder="0" allowfullscreen></iframe></center>
+              <br> </br>
+              <br> </br>          
           </div>
         
           <div>
               <h4><i>* An Inspiring App Inventor Story from the Contest / 张妈妈分享她女儿的小故事</i></h4> 
               <center><iframe width="924" height="520" src="http://www.youtube.com/embed/gvjwx43Ttxw" frameborder="0" allowfullscreen></iframe></center>
-              <h5><a href="http://techtv.mit.edu/videos/30828-an-inspiring-app-inventor-story-from-the-2014-app-inventor-contest">Click here if you can't view / 请点击这里如果不能查看</a></h5>
+              <h5><a onclick="showAltVideo('v006')" class="more">Click here if you can't view  / 请点击这里如果不能查看</a></h5>
               <br></br>
-              <br></br>          
+              <center><iframe id="v006" style="display: none;" width="924" height="520" src="http://player.youku.com/embed/XODU5OTg4NDY4" frameborder="0" allowfullscreen></iframe></center>
+              <br> </br>
+              <br> </br>        
           </div>
         
           <div id="2014summerschoolvideo">
               <h4><i>* App Inventor Summer School Overview / 暑假培训一览</i></h4> 
               <center><iframe width="924" height="520" src="http://www.youtube.com/embed/sYfB3w88cv8" frameborder="0" allowfullscreen></iframe></center>
-              <h5><a href="http://techtv.mit.edu/videos/30613-2014-mit-google-app-inventor-summer-school">Click here if you can't view  / 请点击这里如果不能查看</a></h5>
+              <h5><a onclick="showAltVideo('v005')" class="more">Click here if you can't view  / 请点击这里如果不能查看</a></h5>
+              <br></br>
+              <center><iframe id="v005" style="display: none;" width="924" height="520" src="http://player.youku.com/embed/XODU5NDQ0MDI4" frameborder="0" allowfullscreen></iframe></center>
               <br> </br>
               <br> </br>
           </div>
@@ -80,7 +95,9 @@
           <div>
               <h4><i>* Guangzhou App Inventor Summer Camp Video  / 广州 "科技之星" 视频</i></h4> 
               <center><iframe width="924" height="520" src="http://www.youtube.com/embed/bGeCDQGKMsI" frameborder="0" allowfullscreen></iframe></iframe></center>
-              <h5><a href="http://techtv.mit.edu/videos/30829-2014-guangzhou-app-inventor-summer-camp-video">Click here if you can't view  / 请点击这里如果不能查看</a></h5>
+              <h5><a onclick="showAltVideo('v004')" class="more">Click here if you can't view  / 请点击这里如果不能查看</a></h5>
+              <br></br>
+              <center><iframe id="v004" style="display: none;" width="924" height="520" src="http://player.youku.com/embed/XODU5OTkxNDAw" frameborder="0" allowfullscreen></iframe></center>
               <br> </br>
               <br> </br>
           </div>
@@ -88,7 +105,9 @@
           <div>
               <h4><i>* A Touching App Inventor Story   / 甘肃老师分享他们的经验</i></h4> 
               <center><iframe width="924" height="520" src="http://www.youtube.com/embed/sPXCbjCaM2g" frameborder="0" allowfullscreen></iframe></iframe></center>
-              <h5><a href="http://techtv.mit.edu/videos/30830-a-touching-app-inventor-story">Click here if you can't view  / 请点击这里如果不能查看</a></h5>
+              <h5><a onclick="showAltVideo('v003')" class="more">Click here if you can't view  / 请点击这里如果不能查看</a></h5>
+              <br></br>
+              <center><iframe id="v003" style="display: none;" width="924" height="520" src="http://player.youku.com/embed/XODYwMDE2Njg0" frameborder="0" allowfullscreen></iframe></center>
               <br> </br>
               <br> </br>
           </div>
@@ -96,7 +115,19 @@
           <div>
               <h4><i>* App Inventor Summer School Greeting / App Inventor之父暑假培训班开营致辞</i></h4> 
               <center><iframe width="924" height="520" src="http://www.youtube.com/embed/lTlxTTbPVOU?list=UURGAwNQBvdScRrK5G0660qw" frameborder="0" allowfullscreen></iframe></center>
-              <h5><a href="http://v.youku.com/v_show/id_XNzU3MTY5MTUy.html">Click here if you can't view  / 请点击这里如果不能查看</a></h5>
+              <h5><a onclick="showAltVideo('v002')" class="more">Click here if you can't view  / 请点击这里如果不能查看</a></h5>
+              <br></br>
+              <center><iframe id="v002" style="display: none;" width="924" height="520" src="http://player.youku.com/embed/XNzU3MTY5MTUy" frameborder="0" allowfullscreen></iframe></center>
+              <br> </br>
+              <br> </br>
+          </div>
+
+          <div>
+              <h4><i>* App Inventor Introduction / App Inventor 简短介绍</i></h4> 
+              <center><iframe width="924" height="520" src="http://www.youtube.com/embed/j-KkS-tUJxU" frameborder="0" allowfullscreen></iframe></center>
+              <h5><a onclick="showAltVideo('v001')" class="more">Click here if you can't view  / 请点击这里如果不能查看</a></h5>
+              <br></br>
+              <center><iframe id="v001" style="display: none;" width="924" height="520" src="http://player.youku.com/embed/XNTY2NzI0NjA4" frameborder="0" allowfullscreen></iframe></center>
               <br> </br>
               <br> </br>
           </div>

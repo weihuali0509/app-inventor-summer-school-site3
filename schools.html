@@ -6,6 +6,15 @@
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 <link rel="stylesheet" href="css/jquery.jcarousel.css" type="text/css" media="all" />
 <!--[if IE 6]><link rel="stylesheet" href="css/ie6.css" type="text/css" media="all" /><![endif]-->
+    <script>
+        function showAltImage(elementId) {
+            if (document.getElementById(elementId).style.display != "") {
+               document.getElementById(elementId).style.display = "";
+            } else {
+               document.getElementById(elementId).style.display = "none";
+            }
+        }
+    </script>
 </head>
 <body>
 <div class="shell">
@@ -61,7 +70,10 @@
           <h1>2014 Trainning Sites / 培训地点</h1>
           <div>
             <iframe src="https://mapsengine.google.com/map/embed?mid=zh-D1n_VfTcY.kjeFid7UKi4o" width="935" height="480"></iframe>
-            <h5><a href="css/images/2014summerschoolmap.png">Click here if you can't view / 请点击这里如果不能查看</a></h5>
+              <h5><a onclick="showAltImage('v011')" class="more">Click here if you can't view  / 请点击这里如果不能查看</a></h5>
+              <br></br>
+              <center><img id="v011" style="display : none;" width="945" height="480" src="css/images/2014summerschoolmap.png"></img></center>
+              <br></br>
           </div>
       </div>
       
