@@ -88,7 +88,7 @@ if(strpos($postUrl,'getvalue')){
 	if($link){
 		mysql_select_db($MYSQL_DBNAME,$link);
 		##Execute SELECT query to find value inquired by TinyWebDB
-		$result=mysql_query("SELECT * FROM test WHERE tag='".$tag."'");
+		$result=mysql_query("SELECT value FROM test WHERE tag='".$tag."'");
 		if($result){
 			##Send out a JSON result with merged output data
 			if(mysql_num_rows($result) == 1){
