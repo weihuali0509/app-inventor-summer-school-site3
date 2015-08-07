@@ -19,8 +19,6 @@
  * or shaolin@shaolinzhang.com
  */
 
-echo '<strong>TinyWebDB is Running!</strong>';
-
 ##Pre-Configuration Sections, DO NOT MODIFY THIS PART!
 $postUrl=$_SERVER["REQUEST_URI"]; 
 $tag=$_POST['tag'];
